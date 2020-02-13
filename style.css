@@ -1,0 +1,181 @@
+.menu{
+    background-color: #87BDF5;
+    font-family: Questrial, sans-serif;
+    font-size: large;
+}
+
+header a{
+    color: black;
+    text-decoration: none;
+    margin-left: 0px;
+
+}
+header a:hover{
+    color: black;
+    text-decoration: none;
+}
+header img {
+    width: 60px;
+    height: 60px;
+}
+
+.row{
+    margin-top: 2em;
+}
+
+main a{
+    color: white;
+    text-decoration: none;
+    margin-left: 0px;
+}
+main a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+    margin-left: 0px;
+}
+footer a:hover{
+    color: black;
+    text-decoration: none;
+}
+footer img {
+    width: 8%;
+}
+.entete{
+    width: 70%;
+    height: 50%;
+}
+.font{
+    font-family: Questrial, sans-serif;
+}
+
+#scroll_to_top { 
+    position: fixed; 
+    width: 25px; 
+    height: 25px; 
+    bottom: 50px; 
+    right: 30px; 
+} 
+#scroll_to_top img { 
+    width: 25px; 
+}
+
+/*index*/
+.menuindex{
+    background-color: #87BDF5;
+    font-family: Questrial, sans-serif;
+    font-size: large;
+    position: fixed;
+    width: 100%;
+}
+.bgindex{
+    background-image: url(warren-jones-LFlVuWLjYEo-unsplashcopie.png);
+    width:100%;
+    height: 50em; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+/*blog*/
+#am971, #am97og, #am1viotech, #amSkepta, #am1animal, #am98mzecla, #am90marslanding, #am1dusk{
+    font-family: Questrial, sans-serif;
+    
+}
+.blog:hover{
+    opacity: 0.33;  
+}
+.imgsize{
+    width: 100%;
+}
+/*contact*/
+
+#imgbg {
+    background-image: url(joel-muniz-TC4_vFtcSEY-unsplash.png);
+    width:100%;
+    height: 50em; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    padding-top: 5%;
+}
+
+form {
+    /* Uniquement centrer le formulaire sur la page */
+    margin: 0 auto;
+    width: 22em;
+    /* Encadré pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+  }
+  
+  input, textarea {
+    /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+    font: 1em sans-serif;
+  
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    /* Pour souligner légèrement les éléments actifs */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+    vertical-align: top;
+  
+    /* Pour donner assez de place pour écrire du texte */
+    height: 5em;
+    }
+  
+  .button {
+    /* Pour placer le bouton à la même position que les champs texte */
+    padding-left: 90px; /* même taille que les étiquettes */
+    }
+  
+  button {
+    margin-left: .5em;
+}
+
+/*Portfolio*/
+.portfo{
+    width: 100%;
+    height: auto;
+}
+iframe{
+    width: auto;
+    height: 27rem;
+}
+.story{
+    width: 100%;
+    height: auto;
+}
+.logo{
+    width: 100%;
+    height: auto;
+}
+video{
+    width: 100%;
+}
